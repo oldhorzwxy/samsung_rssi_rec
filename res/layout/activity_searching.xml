@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".SearchingActivity" >
+
+    <TextView
+            android:id="@+id/searching_status"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="@string/searching_status" />
+
+    <Button
+            android:id="@+id/searching_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/searching_start" />
+
+    <Button
+            android:id="@+id/searching_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/searching_stop" />
+
+    <Button
+            android:id="@+id/searching_quit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quit" />
+
+    <ListView
+            android:id="@+id/searching_device_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
